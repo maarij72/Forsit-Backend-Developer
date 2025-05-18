@@ -3,6 +3,22 @@ E-commerce Admin Dashboard Backend (FastAPI)
 
 This project provides a backend API built with **FastAPI** (Python) and **PostgreSQL** to support an e-commerce admin dashboard. 
 
+Instructions to setup and run the project
+----------------------------------------
+
+1. **Clone the repository**  
+   ```bash
+   https://github.com/maarij72/Forsit-Backend-Developer.git
+   cd app
+
+2. Build and start the containers
+    ```bash
+    docker-compose up --build -d
+
+3. Run the script to populate the db
+    ```bash
+    python /app/database/populate_db.py
+    
 Database Schema
 ---------------
 
